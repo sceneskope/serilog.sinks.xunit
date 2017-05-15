@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SceneSkope.Serilog.Sinks.XUnit", "src\SceneSkope.Serilog.Sinks.XUnit\SceneSkope.Serilog.Sinks.XUnit.csproj", "{4B102FD3-5600-42FD-9EF1-2ADC08E464EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D7F0BBA3-0678-4606-8C66-DCF017A1773C}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		appveyor.yml = appveyor.yml
+		build.ps1 = build.ps1
+		README.md = README.md
+		semver.txt = semver.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C4117843-8535-4983-8845-3B92A5757443}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SceneSkope.Serilog.Sinks.XUnit.Tests", "tests\SceneSkope.Serilog.Sinks.XUnit.Tests\SceneSkope.Serilog.Sinks.XUnit.Tests.csproj", "{ABE10901-A10A-4C5D-ABDD-C772E09B3069}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B102FD3-5600-42FD-9EF1-2ADC08E464EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B102FD3-5600-42FD-9EF1-2ADC08E464EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B102FD3-5600-42FD-9EF1-2ADC08E464EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B102FD3-5600-42FD-9EF1-2ADC08E464EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABE10901-A10A-4C5D-ABDD-C772E09B3069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABE10901-A10A-4C5D-ABDD-C772E09B3069}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABE10901-A10A-4C5D-ABDD-C772E09B3069}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABE10901-A10A-4C5D-ABDD-C772E09B3069}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
