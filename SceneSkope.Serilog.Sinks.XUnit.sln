@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SceneSkope.Serilog.Sinks.XUnit", "src\SceneSkope.Serilog.Sinks.XUnit\SceneSkope.Serilog.Sinks.XUnit.csproj", "{4B102FD3-5600-42FD-9EF1-2ADC08E464EF}"
 EndProject
@@ -17,6 +17,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C4117843-8535-4983-8845-3B92A5757443}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SceneSkope.Serilog.Sinks.XUnit.Tests", "tests\SceneSkope.Serilog.Sinks.XUnit.Tests\SceneSkope.Serilog.Sinks.XUnit.Tests.csproj", "{ABE10901-A10A-4C5D-ABDD-C772E09B3069}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A0003367-E33F-4CAD-A085-AA7DB5A74DEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,5 +37,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4B102FD3-5600-42FD-9EF1-2ADC08E464EF} = {A0003367-E33F-4CAD-A085-AA7DB5A74DEE}
+		{ABE10901-A10A-4C5D-ABDD-C772E09B3069} = {C4117843-8535-4983-8845-3B92A5757443}
 	EndGlobalSection
 EndGlobal
